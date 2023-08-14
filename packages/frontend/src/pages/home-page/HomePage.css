@@ -1,0 +1,161 @@
+@media (max-width: 575px) {
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sender-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 400px;
+    text-align: center;
+  }
+
+  .post-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+  }
+
+  .sender-section a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .post-section ul > li {
+    text-align: left;
+  }
+
+  .sender-section ul > li {
+    text-align: left;
+  }
+
+  .sender-section a {
+    font-size: 12px;
+  }
+
+  .sender-section a:hover {
+    text-decoration: none;
+    color: #84c586;
+    cursor: pointer;
+  }
+
+  .link {
+    width: 70%;
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 999px) {
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sender-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 500px;
+  }
+
+  .sender-section ul > li {
+    text-align: left;
+  }
+
+  .post-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+  }
+
+  .post-section ul > li {
+    text-align: left;
+  }
+
+  .sender-section a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .sender-section a:hover {
+    text-decoration: none;
+    color: #84c586;
+    cursor: pointer;
+  }
+
+  .link {
+    width: 70%;
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sender-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 500px;
+  }
+
+  .post-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+  }
+
+  .sender-section a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .sender-section a:hover {
+    text-decoration: none;
+    color: #84c586;
+    cursor: pointer;
+  }
+
+  .link {
+    width: 70%;
+    margin-top: 8px;
+  }
+}
